@@ -15,7 +15,7 @@ Also minor bug fixes (prior to the v1.2) were made.
 ## Screenshots
 
 ![](https://user-images.githubusercontent.com/64840630/110119754-e68d1600-7dc4-11eb-804d-f4ef46635066.jpg)
-![](img2.jpg)
+![](https://user-images.githubusercontent.com/64840630/110120038-323fbf80-7dc5-11eb-9a42-eed69979a671.jpg)
 
 ## Our Team!
 
