@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Γεμίζει το χρώμα σε βαθμίδες  -->
+    <gradient
+        android:startColor="#F3EAEA"
+        android:endColor="#F3EAEA"
+        />
+    <!-- Κάνει κυκλικές τις γωνίες -->
+    <corners
+        android:radius="10dp"
+        />
+</shape>

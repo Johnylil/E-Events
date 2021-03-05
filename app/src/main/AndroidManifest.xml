@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myevents">
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label = "e-events"
+        android:roundIcon="@drawable/applogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Help"
+            android:theme="@style/AppTheme.PopMe"></activity>
+        <activity android:name=".EventDemo"
+            ></activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="Map"></activity>
+        <activity android:name=".Settings"/>
+        <activity android:name=".CustomCamera"/>
+        <activity
+            android:name=".OldUserEvents"
+            android:label="Παλαιότερες Εκδηλώσεις"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register" />
+        <activity
+            android:name=".Visitor"
+            android:label="Περιήγηση"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Organize"
+            android:parentActivityName=".Visitor"
+            android:label="Δημιουργία Εκδήλωσης"/>
+        <activity
+            android:name=".Communication"
+            android:theme="@style/AppTheme.PopMe" />
+        <activity android:name=".Comments"
+            android:theme="@style/AppTheme.PopMe"/>
+        <activity android:name=".EditEvent"
+            android:label="Παλαιότερες Εκδηλώσεις"/>
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

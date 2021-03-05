@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/athens"
+        android:title="ΑΘΗΝΑ" />
+    <item
+        android:id="@+id/salonica"
+        android:title="ΘΕΣΣΑΛΟΝΙΚΗ" />
+    <item
+        android:id="@+id/patras"
+        android:title="ΠΑΤΡΑ" />
+    <item
+        android:id="@+id/heraklion"
+        android:title="ΗΡΑΚΛΕΙΟ" />
+
+    <item
+        android:id="@+id/larisa"
+        android:title="ΛΑΡΙΣΑ" />
+    <item
+        android:id="@+id/volos"
+        android:title="ΒΟΛΟΣ" />
+    <item
+        android:id="@+id/ioannina"
+        android:title="ΙΩΑΝΝΙΝΑ" />
+    <item
+        android:id="@+id/trikala"
+        android:title="ΤΡΙΚΑΛΑ" />
+
+    <item
+        android:id="@+id/serres"
+        android:title="ΣΕΡΡΕΣ" />
+    <item
+        android:id="@+id/aleka"
+        android:title="ΑΛΕΞ/ΠΟΛΗ" />
+    <item
+        android:id="@+id/xanthi"
+        android:title="ΞΑΝΘΗ" />
+    <item
+        android:id="@+id/kavala"
+        android:title="ΚΑΒΑΛΑ" />
+
+    <item
+        android:id="@+id/komotini"
+        android:title="ΚΟΜΟΤΗΝΗ" />
+
+    <item
+        android:id="@+id/kozani"
+        android:title="KOZANH" />
+
+    <item
+        android:id="@+id/kerkyra"
+        android:title="ΚΕΡΚΥΡΑ" />
+
+</menu>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/notebook"
+    tools:context=".Comments">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/slideViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="false"></androidx.viewpager.widget.ViewPager>
+
+
+    <Button
+        android:id="@+id/exitcomments_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slideViewPager"
+        android:layout_marginTop="-34dp"
+        android:background="@android:color/transparent"
+        android:text="KΛΕΙΣΙΜΟ"
+        android:textColor="@color/colorAccent" />
+
+    <LinearLayout
+        android:id="@+id/dotsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slideViewPager"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="-96dp"
+        android:orientation="horizontal"
+        android:padding="30dp"></LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/music"
+        android:title="MUSIC" />
+    <item
+        android:id="@+id/gig"
+        android:title="GIG" />
+    <item
+        android:id="@+id/party"
+        android:title="PARTY" />
+    <item
+        android:id="@+id/sth"
+        android:title="SOMETHING" />
+
+</menu>

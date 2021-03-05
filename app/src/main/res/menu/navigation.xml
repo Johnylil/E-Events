@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/help"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Βοήθεια" />
+    <item
+        android:id="@+id/maps"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="Χάρτες" />
+    <item
+        android:id="@+id/filter"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Φίλτρα"/>
+    <item
+        android:id="@+id/comm"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="Επικοινωνία"/>
+    <item
+        android:id="@+id/set"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Ρυθμίσεις"/>
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="325dp"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    android:background="@drawable/pop_bgd"
+    tools:context=".Communication">
+    <Button
+        android:id="@+id/close"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="end"
+        android:background="@drawable/ic_launcher_close"
+        android:gravity="center" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ic_mail_outline_black_24dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Επικοινωνία"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Αν θέλετε να επικοινωνήσετε μαζί μας στείλτε μας e-mail στην ακόλουθη διεύθυνση:  "
+            android:textColor="#000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"/>
+        <!--Με αυτό δημιουργείται ένα κείμενο όπου γράφει το email της εφαρμογής και ανοίγει το email
+            όπου ο χρήστης έχει τη δυνατότητα να επιλέξει τι mail έχει να συνδεθεί και τον μεταφέρει
+            απευθείας στη δημιουργία μηνύματος για αποστολή στον διαχειριστή μας-->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="myevent@gmail.com"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:autoLink="email"/>
+    </LinearLayout>
+</LinearLayout>

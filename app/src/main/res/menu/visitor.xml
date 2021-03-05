@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/citychoose"
+        android:title="Location"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:iconTint="#fff"/>
+
+    <item
+        android:id="@+id/refresh"
+        android:title="Refresh"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_menu_refresh"
+        android:iconTint="#fff"/>
+
+    <item
+        android:id="@+id/callendar"
+        android:title="Calendar"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:iconTint="#fff"/>
+
+    <item
+        android:id="@+id/add"
+        android:title="Δημιουργία Εκδήλωσης"
+        />
+    <item
+        android:id="@+id/previous"
+        android:title="Παλαιότερες Εκδηλώσεις"
+        />
+</menu>
